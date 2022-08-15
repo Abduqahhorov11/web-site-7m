@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    text-transform: capitalize
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;900&family=Quicksand:wght@600;700&family=Roboto+Serif:ital,opsz,wght@1,8..144,100;1,8..144,200&display=swap');
+
+:root{
+    --Playfair: 'Playfair Display', serif;
+    --Quicksand: 'Quicksand', sans-serif;
+    --Roboto: 'Roboto Serif', serif;
+    --dark: #232323;
+    --exdark: #000200;
+}
+
+body{
+    line-height: 2.4;
+    font-family: war(--Quicksand);
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+ /* Start end */
+   /* Start header */
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bg3.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}   
+.navbar{
+    background-color: var(--dark);
+    padding: 1rem  0;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation .logo a{
+    display: block;
+    color: white;
+    font-size: 40px;
+    font-family: var(--Quicksand);
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    
+}
+.navigation .navbar-nav a{
+   font-size: 20px;
+   font-family: var(--Playfair);
+   margin-top: 1rem;
+   padding-left: 1rem;
+   padding-right: 10px;
+   color: #fff;
+   display: inline-block;
+}
+.banner{
+    text-align: center;
+    margin-top: 8rem;
+}
+.banner-title h1 span{
+        color: var(--exdark);
+        font-family: var(--Playfair);
+}
+.banner-title h1{
+    color: #fff;
+    font-size: 5rem;
+    font-family: var(--Quicksand);
+    text-transform: lowercase;
+}
+.banner-title span{
+    font-family: var(--Playfair);
+    
+}
+
+
+
+
+
